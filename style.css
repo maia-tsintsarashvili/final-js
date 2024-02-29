@@ -1,0 +1,60 @@
+:root {
+  --body-bg-color: white;
+  --body-text-color: black;
+}
+
+[data-theme="dark"] {
+  --body-bg-color: black;
+  --body-text-color: white;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  color: var(--body-text-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 15px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.text1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 10px;
+}
+#quizz {
+  display: grid;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+button {
+  cursor: pointer;
+  background-color: white;
+}
+
+#theme-btn {
+  border-radius: 100px;
+  background-color: violet;
+}
+#question {
+  border-radius: 100px;
+  height: 10vh;
+}
+#question-one{
+  border-radius: 100px;
+  height: 10vh;
+}
+
+#quizz-one{
+  display: grid;
+  gap:5px
+}
